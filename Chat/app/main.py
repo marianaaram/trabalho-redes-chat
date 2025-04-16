@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from .routes import users, messages, rooms
+from app.routes import users, messages, rooms
+
 
 app = FastAPI(
     title="API de Whatzapling",
